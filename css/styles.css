@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: yellow;
+
+}
+
+header {
+    display: flex;
+    border: 40px;
+    padding: 10px;
+    margin: 0px;
+
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+
+}
+
+#logo {
+
+    width: 300px;
+    height: auto;
+}
+#ul{
+    cursor:pointer;
+}
+.bloque {
+   
+    border: 1px solid yellow;
+    height: 290px;
+    display: inline-flex;;
+    background-color: rgb(26, 25, 25);
+    border-radius: 10px;
+
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1500px;
+    padding: 20px;
+
+}
+
+.bloque ul {
+    align-items: left;
+}
+
+
+.botones {
+    display: flex;
+    gap: 30px;
+    padding: 5px 10px;
+    justify-content: center;
+    color:yellow;
+    border-radius: 5px;
+    
+}
+#anterior{
+    background-color: rgb(71, 71, 71);
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+#siguiente{
+    background-color: rgb(71, 71, 71);
+    border: 2px solid yellow;
+    cursor: pointer;
+}
